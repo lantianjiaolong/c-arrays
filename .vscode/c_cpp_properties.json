@@ -6,7 +6,7 @@
         "${workspaceFolder}/**",
         "/usr/local/include"
       ],
-      "compilerPath": "/usr/local/opt/llvm/bin/clang",
+      "compilerPath": "/usr/bin/clang",
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "macos-clang-x64",

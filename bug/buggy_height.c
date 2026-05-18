@@ -1,6 +1,7 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// 函数声明，定义在 main 函数之前，以便 main 函数能够调用它，否则在 main 函数之后定义 print_column 函数会导致编译错误
 void print_column(int height);
 
 /**
@@ -12,7 +13,7 @@ void print_column(int height);
  * @return 程序退出状态码（隐式返回 0）
  */
 int main(void)
-{
+{  
     int h = get_int("Height: ");
     print_column(h);
 }

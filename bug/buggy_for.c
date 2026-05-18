@@ -13,9 +13,17 @@
 int main(void)
 {
     int n = get_int("Number: ");
+    // 错误的循环条件，导致 i 从 0 开始递增，满足 i <= n 的条件，但是打印了 n+1 个井号，逻辑错误。
+    // 当 i 从 0 开始递增时，循环条件应该是 i < n，而不是 i <= n。
+    // 当 i 从 1 开始递增时，循环条件应该是 i <= n，这样才能正确打印 n 行井号。
+    // for (int i = 0; i <= n; i++)
+    // {
+    //     printf("#\n");
+    // }
     for (int i = 1; i <= n; i++)
     {
-        // printf("#\n");
-        printf("%i #\n", i);
+        // printf("%i #\n", i);
+        printf("i is %i\n", i);
+        printf("#\n");
     }
 }
