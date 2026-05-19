@@ -6,13 +6,21 @@
         "${workspaceFolder}/**",
         "/usr/local/include"
       ],
-      "compilerPath": "/usr/local/opt/llvm/bin/clang",
+<<<<<<< HEAD
+      "compilerPath": "/usr/bin/clang",
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "macos-clang-x64",
       "compilerArgs": [
         ""
       ]
+=======
+      "defines": [],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-x64"
+>>>>>>> feature/A
     }
   ],
   "version": 4
