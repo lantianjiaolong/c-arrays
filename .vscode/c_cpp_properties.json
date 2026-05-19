@@ -6,6 +6,7 @@
         "${workspaceFolder}/**",
         "/usr/local/include"
       ],
+<<<<<<< HEAD
       "compilerPath": "/usr/bin/clang",
       "cStandard": "${default}",
       "cppStandard": "${default}",
@@ -13,6 +14,13 @@
       "compilerArgs": [
         ""
       ]
+=======
+      "defines": [],
+      "compilerPath": "/usr/bin/clang",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-x64"
+>>>>>>> feature/A
     }
   ],
   "version": 4

@@ -1,9 +1,17 @@
 {
+<<<<<<< HEAD
   "C_Cpp_Runner.cCompilerPath": "clang",
   "C_Cpp_Runner.cppCompilerPath": "clang++",
   "C_Cpp_Runner.debuggerPath": "dbg",
   "C_Cpp_Runner.cStandard": "",
   "C_Cpp_Runner.cppStandard": "",
+=======
+  "C_Cpp_Runner.cCompilerPath": "/usr/bin/clang",
+  "C_Cpp_Runner.cppCompilerPath": "/usr/bin/clang++",
+  "C_Cpp_Runner.debuggerPath": "/usr/bin/lldb",
+  "C_Cpp_Runner.cStandard": "c17",
+  "C_Cpp_Runner.cppStandard": "c++17",
+>>>>>>> feature/A
   "C_Cpp_Runner.msvcBatchPath": "",
   "C_Cpp_Runner.useMsvc": false,
   "C_Cpp_Runner.warnings": [
@@ -38,6 +46,10 @@
   "C_Cpp_Runner.compilerArgs": [],
   "C_Cpp_Runner.linkerArgs": [],
   "C_Cpp_Runner.includePaths": [
+<<<<<<< HEAD
+=======
+    "${workspaceFolder}/**",
+>>>>>>> feature/A
     "/usr/local/include"
   ],
   "C_Cpp_Runner.includeSearch": [
@@ -57,5 +69,15 @@
   "C_Cpp_Runner.useLeakSanitizer": false,
   "C_Cpp_Runner.showCompilationTime": false,
   "C_Cpp_Runner.useLinkTimeOptimization": false,
+<<<<<<< HEAD
   "C_Cpp_Runner.msvcSecureNoWarnings": false
+=======
+  "C_Cpp_Runner.msvcSecureNoWarnings": false,
+  "terminal.integrated.profiles.osx": {
+    "zsh": {
+      "path": "/bin/zsh"
+    }
+  },
+  "terminal.integrated.defaultProfile.osx": "zsh"
+>>>>>>> feature/A
 }
