@@ -7,13 +7,18 @@
         "/usr/local/include"
       ],
 <<<<<<< HEAD
+<<<<<<< HEAD
       "compilerPath": "/usr/bin/clang",
+=======
+      "compilerPath": "/usr/local/opt/llvm/bin/clang",
+>>>>>>> feature/B
       "cStandard": "${default}",
       "cppStandard": "${default}",
       "intelliSenseMode": "macos-clang-x64",
       "compilerArgs": [
         ""
       ]
+<<<<<<< HEAD
 =======
       "defines": [],
       "compilerPath": "/usr/bin/clang",
@@ -21,6 +26,8 @@
       "cppStandard": "c++17",
       "intelliSenseMode": "macos-clang-x64"
 >>>>>>> feature/A
+=======
+>>>>>>> feature/B
     }
   ],
   "version": 4
